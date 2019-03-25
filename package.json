@@ -1,0 +1,23 @@
+{
+  "name": "projeto-js12",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "gulp"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Artur Diniz Adam",
+    "email": "artur.adam@caelum.com.br"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-rev": "^9.0.0",
+    "gulp-usemin": "^0.3.29",
+    "lodash": "^4.17.11"
+  }
+}

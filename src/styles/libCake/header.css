@@ -1,0 +1,34 @@
+header {
+    background-color: #F4F4F4;
+    border-bottom: 1px solid #e1e1e2;
+    padding: 1em;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+:nth-child(n) + input[type="text"] {
+    margin-left: 1em;
+}
+
+header > input[type="text"] {
+    flex: 1;
+    padding: .25em;
+    font-size: 1.1em;
+    border: 1px solid;
+    border-color: #A4A4A4;
+}
+
+header > input[type="text"]:focus {
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: #77b3fe;
+}
+
+header > input[type="image"] {
+    height: 2em;
+}
+
+header > :nth-child(n) + input[type="image"] {
+    margin-left: 1em;
+}
