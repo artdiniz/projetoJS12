@@ -7,7 +7,11 @@ header {
     align-items: center;
 }
 
-:nth-child(n) + input[type="text"] {
+header > :nth-child(n) {
+    font-size: 1em;
+}
+
+header > :nth-child(n) + :nth-child(n) {
     margin-left: 1em;
 }
 
@@ -25,8 +29,9 @@ header > input[type="text"]:focus {
     outline-color: #77b3fe;
 }
 
-header > input[type="image"] {
-    height: 2em;
+header > input[type="image"],
+header > a > img {
+    height: 1.5em;
 }
 
 header > :nth-child(n) + input[type="image"] {
