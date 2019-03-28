@@ -1,4 +1,4 @@
-(() => {
+;(() => {
     if(window.isElectron) {
         const ipcRenderer = require('electron').ipcRenderer
 
