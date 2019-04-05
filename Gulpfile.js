@@ -6,7 +6,7 @@ const path = require('path');
 
 
 const srcDir = 'src';
-const destDir = 'apostila';
+const destDir = 'dist_apostila';
 
 const clean = destDir => () => del(destDir)
 
