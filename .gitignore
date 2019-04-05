@@ -1,5 +1,5 @@
 .DS_Store
 node_modules
-apostila
+dist_apostila
 _fluxo
 _fluxo.tags.ts
